@@ -1,8 +1,7 @@
 # Integration of Semantic Segmentation into Visual SLAM
 This project trains a DeepLabV3+ semantic segmentation model on KITTI, BDD_10K, and a unified dataset. Models are evaluated for cross-dataset generalization, and the best one is integrated into KITTI visual odometry to fuse 2D semantics with LiDAR, producing a semantic 3D map
-This project uses:
 
-##Datasets & Benchmarks
+Datasets & Benchmarks
 KITTI Semantic Segmentation (2015)
 
 KITTI Vision Benchmark Suite
@@ -21,7 +20,7 @@ Subset: 10K Images + Semantic Segmentation
 Download page:
 http://bdd-data.berkeley.edu/download.html
 
-📍 KITTI Visual Odometry / SLAM (2012)
+KITTI Visual Odometry / SLAM (2012)
 
 KITTI Odometry Benchmark
 
