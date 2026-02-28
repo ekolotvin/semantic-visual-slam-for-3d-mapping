@@ -72,6 +72,17 @@ KITTI и BDD100K были объединены в единый набор дан
 
 **Сравнение моделей и выбор финальной модели.**<br>
 На тестовой части объединённого датасета были оценены:<br>
-*kitti_model, bdd_model, general_model* по метрике mIoU<br>
-Критериями выбора *final_model* являлись высокая метрика mIoU,а также качество визуального поведения на последовательностях изображений датасета KITTI Odometry
+*kitti_model*(mIoU = 0,468), 
+*bdd_model*(mIoU = 0,776), 
+*general_model*(mIoU = 0,673)<br>
+Критериями выбора *final_model* являлись высокая метрика mIoU,а также качество визуального поведения на последовательностях изображений датасета KITTI Odometry.<br>
+В качестве финальной модели была выбрана *general_model*, так как её визуальное качество на этапе inference заметно выше, а значение метрики mIoU лишь незначительно уступает *bdd_model*.<br>
+
+*bdd_model* (inference):
+![bdd_model](https://github.com/user-attachments/assets/ccc3534b-1b7d-48d2-8453-8ec2f54acbfd)
+
+*general_model* (inference):
+![general_model](https://github.com/user-attachments/assets/504eb55c-bdcc-4d05-8b6e-fbea62057e07)
+
+
 
