@@ -83,6 +83,6 @@ KITTI и BDD100K были объединены в единый набор дан
 
 *general_model* (inference):
 ![general_model](https://github.com/user-attachments/assets/504eb55c-bdcc-4d05-8b6e-fbea62057e07)
-
+## 2. Интеграция в Visual SLAM
 
 
