@@ -119,6 +119,5 @@ LiDAR измеряет трёхмерные точки в своей собст�
 ![1](https://github.com/user-attachments/assets/7b0e49f2-b7bd-4c24-b12e-a97eb3bb9766)<br>
 
 
-![4](https://github.com/user-attachments/assets/a481acd0-1281-45fc-bb53-8f6b7e7b9c4d)
 
 
