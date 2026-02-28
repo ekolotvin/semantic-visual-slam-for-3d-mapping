@@ -10,13 +10,17 @@
 ## Обзор проекта
 Проект разделён на две основные части:
 
-Часть 1 — Семантическая сегментация:<br> 
-Обучение и сравнение моделей DeepLabV3+ на различных дорожных датасетах.
+<ins>Часть 1 — Семантическая сегментация:</ins><br> 
+Обучение и сравнение моделей DeepLabV3+ на различных дорожных датасетах.<br>
+Используемые дасатесы:<br>
+1) [The KITTI Vision Benchmark Suite (KITTI: Semantic Segmentation Evaluation)](https://www.cvlibs.net/datasets/kitti/eval_semseg.php?benchmark=semantics2015);<br>
+2) [Berkeley Deep Drive (BDD100K: 10K images + Segmentation)](http://bdd-data.berkeley.edu/download.html);<br>
+3) Объединенный датасет (KITTI + BDD100K).<br>
 
-Часть 2 — Интеграция в Visual SLAM:<br>
-Использование лучшей модели сегментации для построения 3D сцены с семантической разметкой;
-Использован датасет KITTI (семантическая сегментация);
-Всего использовано 200 размеченных семплов.
+<ins>Часть 2 — Интеграция в Visual SLAM:</ins><br>
+Применение финальной модели сегментации для построения 3D сцены с семантической разметкой;<br>
+Для реконструкции трехмерной сцены использован датасет<br>
+[The KITTI Vision Benchmark Suite (Visual Odometry / SLAM Evaluation 2012)](https://www.cvlibs.net/datasets/kitti/eval_odometry.php).
 
 ## 1. Семантическая сегментация
 **Датасет KITTI.**<br> 
