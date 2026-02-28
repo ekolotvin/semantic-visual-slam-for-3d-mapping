@@ -88,7 +88,7 @@ KITTI и BDD100K были объединены в единый набор дан
 *general_model* (inference):
 ![general_model](https://github.com/user-attachments/assets/504eb55c-bdcc-4d05-8b6e-fbea62057e07)
 ## 2. Интеграция в Visual SLAM
-**Построение 3D семантической карты**<br>
+**Построение 3D семантической карты.**<br>
 Для каждого кадра:<br>
 <ins>Предсказывается семантическая маска.</ins><br>
 RGB-изображение подаётся в обученную *final_model*;<br>
