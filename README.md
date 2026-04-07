@@ -1,25 +1,25 @@
 # Integration of Semantic Segmentation into Visual SLAM
 ![11](https://github.com/user-attachments/assets/2cf86d77-cca1-4169-b44c-926d316dd18f)
 ![Снимок экрана 2026-02-28 010250](https://github.com/user-attachments/assets/2525095e-fda9-4f1d-9fc8-0d6ff1241c7a)
-## В этом проекте модель семантической сегментации интегрируется в пайплайн Visual SLAM для построения трёхмерной семантически размеченной сцены.
-Для каждого входного кадра:<br>
-1. Предсказывается семантическая маска;<br>
-2. Маска интегрируется в SLAM;<br>
-3. Строится 3D карта сцены с семантическими метками.
+## In this project, a semantic segmentation model is integrated into a Visual SLAM pipeline to build a three-dimensional semantically annotated scene.
+For each input frame:<br>
+1. A semantic mask is predicted;<br>
+2. The mask is integrated into the SLAM pipeline;<br>
+3. A 3D map of the scene with semantic labels is constructed.
 
-## Обзор проекта
-Проект разделён на две основные части:
+## Project Overview
+The project is divided into two main parts:
 
-<ins>Часть 1 — Семантическая сегментация:</ins><br> 
-Обучение и сравнение моделей DeepLabV3+ на различных дорожных датасетах.<br>
-Используемые дасатесы:<br>
+<ins>Part 1 — Semantic Segmentation:</ins><br> 
+Training and comparison of DeepLabV3+ models on various road datasets.<br>
+Datasets used:<br>
 1) [The KITTI Vision Benchmark Suite (KITTI: Semantic Segmentation Evaluation)](https://www.cvlibs.net/datasets/kitti/eval_semseg.php?benchmark=semantics2015);<br>
 2) [Berkeley Deep Drive (BDD100K: 10K images + Segmentation)](http://bdd-data.berkeley.edu/download.html);<br>
-3) Объединенный датасет (KITTI + BDD100K).<br>
+3) Combined dataset (KITTI + BDD100K).<br>
 
-<ins>Часть 2 — Интеграция в Visual SLAM:</ins><br>
-Применение финальной модели сегментации для построения 3D сцены с семантической разметкой;<br>
-Для реконструкции трехмерной сцены использован датасет<br>
+<ins>Part 2 — Integration into Visual SLAM:</ins><br>
+Application of the final segmentation model to build a 3D scene with semantic annotations;<br>
+For 3D scene reconstruction, the dataset used is<br>
 [The KITTI Vision Benchmark Suite (Visual Odometry / SLAM Evaluation 2012)](https://www.cvlibs.net/datasets/kitti/eval_odometry.php).
 
 ## 1. Семантическая сегментация
